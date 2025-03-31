@@ -1,3 +1,23 @@
+Instrucciones para inicializar el proyecto de manera local:
+
+1. Clonar el repositorio
+git clone https://github.com/Guillo-Barahona/pokeApi_listado.git
+
+2.Acceder al directorio del proyecto
+cd poke_api
+
+3.Instalar dependencias
+npm install
+
+4. Ejecutar el proyecto en modo desarrollo
+npm run dev
+ 
+
+
+
+
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
