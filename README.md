@@ -1,15 +1,15 @@
 Instrucciones para inicializar el proyecto de manera local:
 
-1. Clonar el repositorio
+1. Clonar el repositorio <br>
 git clone https://github.com/Guillo-Barahona/pokeApi_listado.git
 
-2.Acceder al directorio del proyecto
+2.Acceder al directorio del proyecto<br>
 cd poke_api
 
-3.Instalar dependencias
+3.Instalar dependencias<br>
 npm install
 
-4. Ejecutar el proyecto en modo desarrollo
+4. Ejecutar el proyecto en modo desarrollo<br>
 npm run dev
  
 
