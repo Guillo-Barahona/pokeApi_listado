@@ -1,4 +1,4 @@
-Instrucciones para inicializar el proyecto de manera local:
+<b>Instrucciones para inicializar el proyecto de manera local:</b>
 
 1. Clonar el repositorio <br>
 git clone https://github.com/Guillo-Barahona/pokeApi_listado.git <br>
