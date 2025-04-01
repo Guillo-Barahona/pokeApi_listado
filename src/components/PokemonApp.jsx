@@ -2,7 +2,7 @@ import React from "react";
 import { Input, Pagination, Card, Row, Col } from "antd";
 import { useEffect, useState } from "react";
 import './styles.css'
-import { fetchPokemon, setSearchTerm, setCurrentPage } from "./redux/pokemonSlice";
+import { fetchPokemon, setSearchTerm, setCurrentPage } from "../redux/pokemonSlice";
 import Title from "antd/es/typography/Title";
 import Meta from "antd/es/card/Meta";
 import { useDispatch, useSelector } from "react-redux";
@@ -24,7 +24,7 @@ function PokemonApp() {
     currentPage * ITEMS_PER_PAGE
   );
 
-//codigo usando usestate y useeffect en vez de redux para controlar los estados
+//codigo usando useState y useEffect en vez de redux para controlar los estados
     /* const [pokemonList, setPokemonList] = useState([]);
     const [filteredPokemon, setFilteredPokemon] = useState([]);
     const [currentPage, setCurrentPage] = useState(1);
